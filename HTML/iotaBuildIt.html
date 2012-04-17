@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+<title>iotaBuiltIt</title>
+<style>
+   .unselectable {
+      user-select:none;
+      -moz-user-select:-moz-none;
+      -khtml-user-select:none;
+      -webkit-user-select:none;
+      -o-user-select:none;
+   }
+   canvas { display: block }
+   
+</style>
+
+<script type="text/javascript" src="iotaBuildIt.js"></script>
+<script type="text/javascript" src="Sprites/Bomb.js"></script>
+<script type="text/javascript" src="Sprites/Bombot.js"></script>
+<script type="text/javascript" src="Sprites/BotBomber.js"></script>
+<script type="text/javascript" src="Sprites/BotDestructor.js"></script>
+<script type="text/javascript" src="Sprites/BotEnergy.js"></script>
+<script type="text/javascript" src="Sprites/BotEnergySource.js"></script>
+<script type="text/javascript" src="Sprites/BotMover.js"></script>
+<script type="text/javascript" src="Sprites/CrystalizedBot.js"></script>
+<script type="text/javascript" src="Sprites/Droplet.js"></script>
+<script type="text/javascript" src="Sprites/Eater.js"></script>
+<script type="text/javascript" src="Sprites/Explosion.js"></script>
+<script type="text/javascript" src="Sprites/Igniter.js"></script>
+<script type="text/javascript" src="Sprites/InventorySelector.js"></script>
+<script type="text/javascript" src="Sprites/Jumper.js"></script>
+<script type="text/javascript" src="Sprites/MenuDummy.js"></script>
+<script type="text/javascript" src="Sprites/MenuPointer.js"></script>
+<script type="text/javascript" src="Sprites/Package.js"></script>
+<script type="text/javascript" src="Sprites/Platform.js"></script>
+<script type="text/javascript" src="Sprites/Player.js"></script>
+<script type="text/javascript" src="Sprites/Rocket.js"></script>
+<script type="text/javascript" src="Sprites/Spider.js"></script>
+<script type="text/javascript" src="Sprites/Sprout.js"></script>
+<script type="text/javascript" src="Sprites/ThrownTorch.js"></script>
+<script type="text/javascript" src="Sprites/Web.js"></script>
+<script type="text/javascript" src="Sprites/WorldMapPlayer.js"></script>
+<script type="text/javascript" src="Sprites/Worm.js"></script>
+<script type="text/javascript" src="Level_1_Map.js"></script>
+<script type="text/javascript" src="Menu_Map.js"></script>
+<script type="text/javascript" src="Overlay_Map.js"></script>
+<script type="text/javascript" src="SaveOrLoadGame_Map.js"></script>
+<script type="text/javascript" src="TestLevel_Map.js"></script>
+<script type="text/javascript" src="Tutorial_1_Map.js"></script>
+<script type="text/javascript" src="World_Map.js"></script>
+<script type="text/javascript" src="SpriteCustom.js"></script>
+<script type="text/javascript" src="PlanCustom.js"></script>
+<script type="text/javascript" src="GeneralRulesCustom.js"></script>
+<script type="text/javascript" src="MapLayerCustom.js"></script>
+<script type="text/javascript" src="TileCustom.js"></script>
+<script type="text/javascript" src="Sound.js"></script>
+
+</head>
+<body class="unselectable" unselectable="on">
+<canvas id="gameView" width="640" height="480" unselectable="on" class="unselectable">
+   Your browser does not support HTML5 canvases.
+</canvas>
+<img id="CoolFont" style="display:none" src="CoolFont.png" />
+<img id="FireFont" style="display:none" src="FireFont.png" />
+<img id="Main" style="display:none" src="Main.png" />
+<img id="NanoBots" style="display:none" src="NanoBots.png" />
+
+
+<audio id="soundAhh">
+<source src="ahh.ogg" type="audio/ogg" />
+<source src="ahh.mp3" type="audio/mp3" />
+Your browser does not support the HTML5 audio tag.
+</audio>
+<audio id="soundBing">
+<source src="bing.ogg" type="audio/ogg" />
+<source src="bing.mp3" type="audio/mp3" />
+Your browser does not support the HTML5 audio tag.
+</audio>
+<audio id="soundExplode">
+<source src="explode.ogg" type="audio/ogg" />
+<source src="explode.mp3" type="audio/mp3" />
+Your browser does not support the HTML5 audio tag.
+</audio>
+<audio id="soundPickup">
+<source src="pickup.ogg" type="audio/ogg" />
+<source src="pickup.mp3" type="audio/mp3" />
+Your browser does not support the HTML5 audio tag.
+</audio>
+</body>
+</html>
+
